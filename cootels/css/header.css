@@ -1,0 +1,37 @@
+.header {
+  padding: 37px 0 35px 0;
+}
+
+.header__logo {
+  font-family: Montserrat, sans-serif;
+  font-weight: 600;
+  font-size: 32px;
+  line-height: 39px;
+
+  color: #192252;
+}
+
+.header__container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.header__nav {
+  display: flex;
+  font-family: Inter;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 19px;
+
+  color: #192252;
+}
+
+.header__nav-item {
+  list-style: none;
+  padding: 0px 16px;
+}
+
+.header__button {
+  font-family: inherit;
+}
