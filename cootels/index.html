@@ -12,6 +12,9 @@
     <link rel="stylesheet" href="./css/reservation.css" />
     <link rel="stylesheet" href="./css/room-card.css" />
     <link rel="stylesheet" href="./css/button.css" />
+    <link rel="stylesheet" href="./css/booking.css" />
+    <link rel="stylesheet" href="./css/feedback.css" />
+    <link rel="stylesheet" href="./css/footer.css" />
 
     <title>Coolels</title>
   </head>
@@ -171,6 +174,122 @@
           </div>
         </div>
       </section>
+
+      <section class="booking container">
+        <div class="booking__wrapper">
+          <button class="button booking__start button--variant--ghost">
+            Start your journey!
+          </button>
+          <h2 class="booking__title">How to Get My Room?</h2>
+          <p class="booking__description">
+            You can contact us by phone or email us. Easily tap the contact
+            button below and it will take you to our contact point
+          </p>
+          <button class="button booking__button">Contact us</button>
+          <button class="button button--variant--ghost">
+            Explore more room
+          </button>
+        </div>
+
+        <ul class="booking__toggle">
+          <li class="booking__tip booking__tip--closed">
+            <h3 class="booking__tip-name">1. Choose a room and date</h3>
+            <span class="booking__arrow arrow-down"></span>
+            <p class="booking__explanation">
+              Contact us via phone or email, ask for availability of you choice
+              of room. We might offer you something exciting.
+            </p>
+          </li>
+
+          <li class="booking__tip booking__tip--opened">
+            <h3 class="booking__tip-name">2. Check for room availability</h3>
+            <span class="booking__arrow arrow-up"></span>
+            <p class="booking__explanation">
+              Contact us via phone or email, ask for availability of you choice
+              of room. We might offer you something exciting.
+            </p>
+          </li>
+
+          <li class="booking__tip booking__tip--closed">
+            <h3 class="booking__tip-name">3. Enjoy your room</h3>
+            <span class="booking__arrow arrow-down"></span>
+            <p class="booking__explanation">
+              Contact us via phone or email, ask for availability of you choice
+              of room. We might offer you something exciting.
+            </p>
+          </li>
+        </ul>
+      </section>
+
+      <section class="feedback container">
+        <h2 class="feedback__title">Hear From Our Happy Customers</h2>
+        <img
+          class="feedback__photo"
+          src="./images/kirana.png"
+          alt="Kirana Dunham"
+        />
+        <p class="feedback__message">
+          “Great service, great food, great people. The scenery is also
+          beautiful, you can do so much activity even with your famility. Worth
+          every penny! you should come and see for your self. 5 out of 5! the
+          waffle is great!”
+        </p>
+        <h3 class="feedback__name">Kirana Dunham</h3>
+        <div class="feedback__carousel">
+          <div class="feedback__carousel-small"></div>
+          <div class="feedback__carousel-large"></div>
+          <div class="feedback__carousel-small"></div>
+          <div class="feedback__carousel-small"></div>
+        </div>
+      </section>
+
+      <footer class="footer">
+        <div class="container footer__container">
+          <div class="footer__about">
+            <h2 class="footer__logo">Cootels</h2>
+            <div class="footer__description">
+              <p>Your Best Private</p>
+              <p>Hideway From Crowd.</p>
+              <p>Back to Nature.</p>
+            </div>
+
+            <ul class="footer__media">
+              <li class="footer__icon" href="#">
+                <img src="./images/twitter-logo.svg" alt="twitter" />
+              </li>
+              <li class="footer__icon" href="#">
+                <img src="./images/instagram-logo.svg" alt="instagram" />
+              </li>
+              <li class="footer__icon" href="#">
+                <img src="./images/facebook-logo.svg" alt="facebook" />
+              </li>
+            </ul>
+          </div>
+
+          <div class="footer__navigation">
+            <nav class="footer__nav">
+              <li class="footer__nav-title">Rooms</li>
+              <li class="footer__nav-item">Single Room</li>
+              <li class="footer__nav-item">Double Room</li>
+              <li class="footer__nav-item">Cabin</li>
+              <li class="footer__nav-item">Custom Room</li>
+            </nav>
+
+            <nav class="footer__nav">
+              <li class="footer__nav-title">Reservation</li>
+              <li class="footer__nav-item">See the Steps</li>
+              <li class="footer__nav-item">Best Time</li>
+            </nav>
+
+            <nav class="footer__nav">
+              <li class="footer__nav-title">Contact</li>
+              <li class="footer__nav-item">Our Number</li>
+              <li class="footer__nav-item">Our Email</li>
+              <li class="footer__nav-item">Our Location</li>
+            </nav>
+          </div>
+        </div>
+      </footer>
     </main>
   </body>
 </html>

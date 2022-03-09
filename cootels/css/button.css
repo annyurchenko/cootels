@@ -22,3 +22,7 @@
   color: #424f7b;
   background: none;
 }
+
+.button:hover {
+  cursor: pointer;
+}

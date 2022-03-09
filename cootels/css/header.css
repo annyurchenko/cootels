@@ -36,6 +36,10 @@
   padding: 0px 16px;
 }
 
+.header__nav-item:hover {
+  cursor: pointer;
+}
+
 .header__button {
   font-family: inherit;
 }

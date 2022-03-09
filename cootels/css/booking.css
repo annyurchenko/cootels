@@ -1,0 +1,54 @@
+.booking {
+  display: flex;
+}
+
+.booking__start {
+  margin-top: 82px;
+  padding-bottom: 12px;
+}
+
+.booking__title {
+  font-size: 36px;
+  padding: 9px 0;
+  margin-bottom: 24px;
+}
+
+.booking__description {
+  margin-right: 228px;
+  margin-bottom: 32px;
+}
+
+.booking__button {
+  min-width: 148px;
+  margin-right: 24px;
+  margin-bottom: 156px;
+}
+
+.booking__tip {
+  width: 588px;
+  padding: 32px 36px;
+
+  border-radius: 4px;
+  box-shadow: 0px 0px 25px 1px rgba(0, 0, 0, 0.1);
+  margin-bottom: 24px;
+
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.booking__tip-name {
+  font-size: 24px;
+  color: #424f7b;
+
+  display: inline;
+}
+
+.booking__explanation {
+  margin-top: 24px;
+  padding-bottom: 2px;
+}
+
+.booking__tip--closed > .booking__explanation {
+  display: none;
+}
